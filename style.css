@@ -13,7 +13,7 @@
 }
 
 .view:not(.hide) .skinHeader, .skinHeader-withBackground.headroom-scrolling {
-	width: auto;
+	width: 100%;
 	background-image: linear-gradient(black, transparent) !important;
 	background-color: unset !important;
 }
@@ -28,6 +28,7 @@
 }
 
 .view:not(.hide) .section0 {
+	display: none;
 	z-index: 2;
 }
 
@@ -54,13 +55,9 @@
 	text-decoration: none;
 }
 
-.view:not(.hide) .section0 .cardOverlayContainer {
-	background: none;
-}
-
-.view:not(.hide) .section0 .cardOverlayContainer label,
+.view:not(.hide) .section0 .cardOverlayContainer,
 .view:not(.hide) .section0 .sectionTitleContainer {
-	display: none !important;
+	display: none;
 }
 
 .view:not(.hide) .section0 .cardBox-touchzoom {
@@ -103,16 +100,14 @@
 	max-height: 100vh;
 	user-select: none;
 	object-fit: cover;
-	-webkit-mask-image: linear-gradient(to top, transparent 0%, black 30%);
-	mask-image: linear-gradient(to top, transparent 0%, black 30%);
 }
 
 .misty-banner-logo {
 	position: absolute;
 	user-select: none;
 	object-fit: contain;
-	height: clamp(0rem, -2.182rem + 10.91vw, 6rem);
-	/* width: fit-content; */
+	height: clamp(2rem, -2.182rem + 10.91vw, 7rem);
+	width: fit-content; 
 	transform: translateY(calc(-50% - clamp(-2rem, -3.455rem + 7.27vw, 2rem)));
 	right: calc(3.4% + min(0.72em, max(0.48em, 1.78vw)));
 	opacity: 0;
@@ -251,10 +246,10 @@
 	cursor: pointer;
 	margin-top: clamp(0rem, -2.625rem + 7.5vw, 3rem);
 	width: 6em;
-	height: 1.8em;
+        height: 2.8em;
 	background-color: #fff;
 	border: none;
-	font-size: clamp(.6rem, -.275rem + 2.5vw, 1.6rem);
+	font-size: clamp(0.6rem, 0.025rem + 3.5vw, 14.6rem);
 	border-radius: 10px;
 	font-weight: bold;
 	letter-spacing: 2px;
@@ -262,6 +257,7 @@
 	font-family: system-ui;
 	transition: .2s;
 }
+
 
 .misty-banner-info button:hover{
 	transform: scale(.95);
@@ -275,17 +271,17 @@
 @media screen and (max-width: 52em) {
 	.misty-banner-info button,
 	.misty-banner-info p {
-		display: none;
+		
 	}
 }
 
 @media screen and (max-width: 35em) {
 	.misty-banner-info,
 	.misty-banner-logo 	{
-		display: none !important;
+		
 	}
 	.misty-banner-body{
-		opacity: 0;
+		opacity: 100;
 	}
 }
 
