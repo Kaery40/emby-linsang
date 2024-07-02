@@ -181,6 +181,21 @@
 	min-width: 100%;
 }
 
+.pageTitleWithDefaultLogo {
+  padding: 0;
+  border: none;
+}
+
+.pageTitle {
+  padding: 0;
+  border: none;
+}
+
+.pageTitleWithLogo {
+  padding: 0;
+  border: none;
+}
+
 .misty-banner-info {
 	width: 100%;
 	margin: min(.72em, max(.48em, 1.78vw));
