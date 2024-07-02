@@ -1,4 +1,3 @@
-
 class Home {
 	static start() {
 		this.cache = {
@@ -8,31 +7,24 @@ class Home {
 		this.itemQuery = { ImageTypes: "Backdrop", EnableImageTypes: "Logo,Backdrop", IncludeItemTypes: "Movie,Series", SortBy: "ProductionYear, PremiereDate, SortName", Recursive: true, ImageTypeLimit: 1, Limit: 10, Fields: "ProductionYear", SortOrder: "Descending", EnableUserData: false, EnableTotalRecordCount: false };
 		this.coverOptions = { type: "Backdrop", maxWidth: 3000 };
 		this.logoOptions = { type: "Logo", maxWidth: 3000 };
-
-		if (this.IsPhone()) {
-			this.itemQuery.ImageTypes = "Primary";
-			this.coverOptions.type = "Primary";
-		}
+		this.initStart = false;
 		setInterval(() => {
 			if (window.location.href.indexOf("!/home") != -1) {
 				if ($(".view:not(.hide) .misty-banner").length == 0 && $(".misty-loading").length == 0) {
+					this.initStart = false;
 					this.initLoading();
 				}
 				if ($(".hide .misty-banner").length != 0) {
 					$(".hide .misty-banner").remove();
-					this.init();
 				}
-				if ($(".section0 .card").length != 0 && $(".view:not(.hide) .misty-banner").length == 0) {
+				if (!this.initStart && $(".section0 .card").length != 0 && $(".view:not(.hide) .misty-banner").length == 0) {
+					this.initStart = true;
 					this.init();
 				}
 			}
 		}, 100);
 	}
-static IsPhone() {
-		const info = navigator.userAgent;
-		const isPhone = /mobile/i.test(info);
-		return isPhone;
-	}
+
 	static async init() {
 		// Beta
 		$(".view:not(.hide)").attr("data-type", "home");
@@ -58,14 +50,26 @@ static IsPhone() {
 	static injectCode(code) {
 		let hash = md5(code + Math.random().toString());
 		return new Promise((resolve, reject) => {
-			const channel = new BroadcastChannel(hash);
-			channel.addEventListener("message", (event) => resolve(event.data));
+			if ("BroadcastChannel" in window) {
+				const channel = new BroadcastChannel(hash);
+				channel.addEventListener("message", (event) => resolve(event.data));
+			} else if ("postMessage" in window) {
+				window.addEventListener("message", (event) => {
+					if (event.data.channel === hash) {
+						resolve(event.data.message);
+					}
+				});
+			}
 			const script = `
 			<script class="I${hash}">
 				setTimeout(async ()=> {
 					async function R${hash}(){${code}};
-					const channel = new BroadcastChannel("${hash}");
-					channel.postMessage(await R${hash}());
+					if ("BroadcastChannel" in window) {
+						const channel = new BroadcastChannel("${hash}");
+						channel.postMessage(await R${hash}());
+					} else if ('postMessage' in window) {
+						window.parent.postMessage({channel:"${hash}",message:await R${hash}()}, "*");
+					}
 					document.querySelector("script.I${hash}").remove()
 				}, 16)
 			</script>
@@ -120,7 +124,7 @@ static IsPhone() {
 		</div>
 		`;
 		$(".view:not(.hide) .homeSectionsContainer").prepend(banner);
-		$(".view:not(.hide) .section0").detach().appendTo(".view:not(.hide) .misty-banner-library");
+		// $(".view:not(.hide) .section0").detach().appendTo(".view:not(.hide) .misty-banner-library");
 
 		// 插入数据
 		const data = await this.getItems(this.itemQuery);
@@ -147,46 +151,61 @@ static IsPhone() {
 			console.log(item.Id, detail);
 		});
 
-		let complete = 0;
-		let loading = setInterval(async () => {
-			// 判断图片加载完毕
-			$(".misty-banner-cover:not(.complete)").each((i, dom) => {
-				if (dom.complete) {
-					dom.classList.add("complete");
-					complete++;
+		// 只判断第一张海报加载完毕, 优化加载速度
+		await new Promise((resolve, reject) => {
+			let waitLoading = setInterval(() => {
+				if (document.querySelector(".misty-banner-cover").complete) {
+					clearInterval(waitLoading);
+					resolve();
 				}
-			});
-			if (complete == $(".misty-banner-item").length && $(".misty-banner-item").length != 0) {
-				clearInterval(loading);
-				$(".misty-loading").fadeOut(500, () => $(".misty-loading").remove());
-				await CommonUtils.sleep(150);
-				// 置入场动画
-				let delay = 80; // 动媒体库画间隔
-				let id = $(".misty-banner-item").eq(0).addClass("active").attr("id"); // 初次信息动画
+			}, 16);
+		});
+		
+		// 判断section0加载完毕
+		await new Promise((resolve, reject) => {
+			let waitsection0 = setInterval(() => {
+				if ($(".view:not(.hide) .section0 .emby-scrollbuttons").length > 0 && $(".view:not(.hide) .section0.hide").length == 0) {
+					clearInterval(waitsection0);
+					resolve();
+				}
+			}, 16);
+		});
+		
+		$(".view:not(.hide) .section0 .emby-scrollbuttons").remove();
+		const items = $(".view:not(.hide) .section0 .emby-scroller .itemsContainer")[0].items;
+		$(".view:not(.hide) .section0").detach().appendTo(".view:not(.hide) .misty-banner-library");
+		
+		$(".misty-loading").fadeOut(500, () => $(".misty-loading").remove());
+		await CommonUtils.sleep(150);
+		$(".view:not(.hide) .section0 .emby-scroller .itemsContainer")[0].items = items;
+		
+		// 置入场动画
+		let delay = 80; // 动媒体库画间隔
+		let id = $(".misty-banner-item").eq(0).addClass("active").attr("id"); // 初次信息动画
+		$(`.misty-banner-logo[id=${id}]`).addClass("active");
+
+		await CommonUtils.sleep(200); // 间隔动画
+		$(".section0 > div").addClass("misty-banner-library-overflow"); // 关闭overflow 防止媒体库动画溢出
+		$(".misty-banner .card").each((i, dom) => setTimeout(() => $(dom).addClass("misty-banner-library-show"), i * delay)); // 媒体库动画
+		await CommonUtils.sleep(delay * 8 + 1000); // 等待媒体库动画完毕
+		$(".section0 > div").removeClass("misty-banner-library-overflow"); // 开启overflow 防止无法滚动
+
+		// 滚屏逻辑
+		var index = 0;
+		clearInterval(this.bannerInterval);
+		this.bannerInterval = setInterval(() => {
+			// 背景切换
+			if (window.location.href.endsWith("home") && !document.hidden) {
+				index += index + 1 == $(".misty-banner-item").length ? -index : 1;
+				$(".misty-banner-body").css("left", -(index * 100).toString() + "%");
+				// 信息切换
+				$(".misty-banner-item.active").removeClass("active");
+				let id = $(".misty-banner-item").eq(index).addClass("active").attr("id");
+				// LOGO切换
+				$(".misty-banner-logo.active").removeClass("active");
 				$(`.misty-banner-logo[id=${id}]`).addClass("active");
-
-				await CommonUtils.sleep(200); // 间隔动画
-				$(".section0 > div").addClass("misty-banner-library-overflow"); // 关闭overflow 防止媒体库动画溢出
-				$(".misty-banner .card").each((i, dom) => setTimeout(() => $(dom).addClass("misty-banner-library-show"), i * delay)); // 媒体库动画
-				await CommonUtils.sleep(delay * 8 + 1000); // 等待媒体库动画完毕
-				$(".section0 > div").removeClass("misty-banner-library-overflow"); // 开启overflow 防止无法滚动
-
-				// 滚屏逻辑
-				var index = 0;
-				clearInterval(this.bannerInterval);
-				this.bannerInterval = setInterval(async () => {
-					// 背景切换
-					index += index + 1 == $(".misty-banner-item").length ? -index : 1;
-					$(".misty-banner-body").css("left", -(index * 100).toString() + "%");
-					// 信息切换
-					$(".misty-banner-item.active").removeClass("active");
-					let id = $(".misty-banner-item").eq(index).addClass("active").attr("id");
-					// LOGO切换
-					$(".misty-banner-logo.active").removeClass("active");
-					$(`.misty-banner-logo[id=${id}]`).addClass("active");
-				}, 8000);
 			}
-		}, 16);
+		}, 8000);
 	}
 
 	/* 初始事件 */
@@ -195,19 +214,21 @@ static IsPhone() {
 		const script = `
 		// 挂载appRouter
 		if (!window.appRouter) window.appRouter = (await window.require(["appRouter"]))[0];
-		// 修复library事件参数
+		/* // 修复library事件参数
 		const serverId = ApiClient._serverInfo.Id,
 			librarys = document.querySelectorAll(".view:not(.hide) .section0 .card");
 		librarys.forEach(library => {
 			library.setAttribute("data-serverid", serverId);
 			library.setAttribute("data-type", "CollectionFolder");
-		});
+		}); */
 		`;
 		this.injectCode(script);
 	}
 }
 
 // 运行
-if ($("meta[name=application-name]").attr("content") == "Emby" || $(".accent-emby") != undefined) {
-	Home.start();
+if ("BroadcastChannel" in window || "postMessage" in window) {
+	if ($("meta[name=application-name]").attr("content") == "Emby" || $(".accent-emby") != undefined) {
+		Home.start();
+	}
 }
