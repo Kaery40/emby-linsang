@@ -44,18 +44,22 @@ class Home {
         const serverName = await this.injectCall("serverName", "");
         $(".misty-loading h1").text(serverName).addClass("active");
         // Banner
-        await this.initBanner();
+        try {
+            await this.initBanner();
+        } catch (error) {
+            console.error("Error initializing banner:", error);
+        }
         this.initEvent();
     }
 
     /* 插入Loading */
     static initLoading() {
         const load = `
-		<div class="misty-loading">
-			<h1></h1>
-			<div class="mdl-spinner"><div class="mdl-spinner__layer mdl-spinner__layer-1"><div class="mdl-spinner__circle-clipper mdl-spinner__left"><div class="mdl-spinner__circle mdl-spinner__circleLeft"></div></div><div class="mdl-spinner__circle-clipper mdl-spinner__right"><div class="mdl-spinner__circle mdl-spinner__circleRight"></div></div></div></div>
-		</div>
-		`;
+        <div class="misty-loading">
+            <h1>Loading...</h1>
+            <div class="mdl-spinner"><div class="mdl-spinner__layer mdl-spinner__layer-1"><div class="mdl-spinner__circle-clipper mdl-spinner__left"><div class="mdl-spinner__circle mdl-spinner__circleLeft"></div></div><div class="mdl-spinner__circle-clipper mdl-spinner__right"><div class="mdl-spinner__circle mdl-spinner__circleRight"></div></div></div></div>
+        </div>
+        `;
         $("body").append(load);
     }
 
@@ -73,33 +77,33 @@ class Home {
                 });
             }
             const script = `
-			<script class="I${hash}">
-				setTimeout(async ()=> {
-					async function R${hash}(){${code}};
-					if ("BroadcastChannel" in window) {
-						const channel = new BroadcastChannel("${hash}");
-						channel.postMessage(await R${hash}());
-					} else if ('postMessage' in window) {
-						window.parent.postMessage({channel:"${hash}",message:await R${hash}()}, "*");
-					}
-					document.querySelector("script.I${hash}").remove()
-				}, 16)
-			</script>
-			`;
+            <script class="I${hash}">
+                setTimeout(async ()=> {
+                    async function R${hash}(){${code}};
+                    if ("BroadcastChannel" in window) {
+                        const channel = new BroadcastChannel("${hash}");
+                        channel.postMessage(await R${hash}());
+                    } else if ('postMessage' in window) {
+                        window.parent.postMessage({channel:"${hash}",message:await R${hash}()}, "*");
+                    }
+                    document.querySelector("script.I${hash}").remove()
+                }, 16)
+            </script>
+            `;
             $(document.head || document.documentElement).append(script);
         });
     }
 
     static injectCall(func, arg) {
         const script = `
-		// const client = (await window.require(["ApiClient"]))[0];
-		const client = await new Promise((resolve, reject) => {
-			setInterval(() => {
-				if (window.ApiClient != undefined) resolve(window.ApiClient);
-			}, 16);
-		});
-		return await client.${func}(${arg})
-		`;
+        // const client = (await window.require(["ApiClient"]))[0];
+        const client = await new Promise((resolve, reject) => {
+            setInterval(() => {
+                if (window.ApiClient != undefined) resolve(window.ApiClient);
+            }, 16);
+        });
+        return await client.${func}(${arg})
+        `;
         return this.injectCode(script);
     }
 
@@ -127,14 +131,14 @@ class Home {
     /* 插入Banner */
     static async initBanner() {
         const banner = `
-		<div class="misty-banner">
-			<div class="misty-banner-body">
-			</div>
-			<div class="misty-banner-library">
-				<div class="misty-banner-logos"></div>
-			</div>
-		</div>
-		`;
+        <div class="misty-banner">
+            <div class="misty-banner-body">
+            </div>
+            <div class="misty-banner-library">
+                <div class="misty-banner-logos"></div>
+            </div>
+        </div>
+        `;
         $(".view:not(.hide) .homeSectionsContainer").prepend(banner);
         // $(".view:not(.hide) .section0").detach().appendTo(".view:not(.hide) .misty-banner-library");
 
@@ -144,18 +148,18 @@ class Home {
         data.Items.forEach(async (item) => {
             const detail = await this.getItem(item.Id),
                 itemHtml = `
-			<div class="misty-banner-item" id="${detail.Id}">
-				<img draggable="false" loading="eager" decoding="async" class="misty-banner-cover" src="${await this.getImageUrl(detail.Id, this.coverOptions)}" alt="Backdrop" style="">
-				<div class="misty-banner-info padded-left padded-right">
-					<h1>${detail.Name}</h1>
-					<div><p>${detail.Overview}</p></div>
-					<div><button onclick="appRouter.showItem('${detail.Id}')">MORE</button></div>
-				</div>
-			</div>
-			`,
+            <div class="misty-banner-item" id="${detail.Id}">
+                <img draggable="false" loading="eager" decoding="async" class="misty-banner-cover" src="${await this.getImageUrl(detail.Id, this.coverOptions)}" alt="Backdrop" style="">
+                <div class="misty-banner-info padded-left padded-right">
+                    <h1>${detail.Name}</h1>
+                    <div><p>${detail.Overview}</p></div>
+                    <div><button onclick="appRouter.showItem('${detail.Id}')">MORE</button></div>
+                </div>
+            </div>
+            `,
                 logoHtml = `
-			<img id="${detail.Id}" draggable="false" loading="auto" decoding="lazy" class="misty-banner-logo" data-banner="img-title" alt="Logo" src="${await this.getImageUrl(detail.Id, this.logoOptions)}">
-			`;
+            <img id="${detail.Id}" draggable="false" loading="auto" decoding="lazy" class="misty-banner-logo" data-banner="img-title" alt="Logo" src="${await this.getImageUrl(detail.Id, this.logoOptions)}">
+            `;
             if (detail.ImageTags && detail.ImageTags.Logo) {
                 $(".misty-banner-logos").append(logoHtml);
             }
@@ -224,16 +228,16 @@ class Home {
     static initEvent() {
         // 通过注入方式, 方可调用appRouter函数, 以解决Content-Script window对象不同步问题
         const script = `
-		// 挂载appRouter
-		if (!window.appRouter) window.appRouter = (await window.require(["appRouter"]))[0];
-		/* // 修复library事件参数
-		const serverId = ApiClient._serverInfo.Id,
-			librarys = document.querySelectorAll(".view:not(.hide) .section0 .card");
-		librarys.forEach(library => {
-			library.setAttribute("data-serverid", serverId);
-			library.setAttribute("data-type", "CollectionFolder");
-		}); */
-		`;
+        // 挂载appRouter
+        if (!window.appRouter) window.appRouter = (await window.require(["appRouter"]))[0];
+        /* // 修复library事件参数
+        const serverId = ApiClient._serverInfo.Id,
+            librarys = document.querySelectorAll(".view:not(.hide) .section0 .card");
+        librarys.forEach(library => {
+            library.setAttribute("data-serverid", serverId);
+            library.setAttribute("data-type", "CollectionFolder");
+        }); */
+        `;
         this.injectCode(script);
     }
 }
