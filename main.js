@@ -154,7 +154,7 @@ class Home {
 		// 只判断第一张海报加载完毕, 优化加载速度
 		await new Promise((resolve, reject) => {
 			let waitLoading = setInterval(() => {
-				if (document.querySelector(".misty-banner-cover").complete) {
+				if (document.querySelector(".misty-banner-cover")?.complete) {
 					clearInterval(waitLoading);
 					resolve();
 				}
@@ -195,19 +195,19 @@ class Home {
 		// 滚屏逻辑
 		var index = 0;
 		clearInterval(this.bannerInterval);
-		this.bannerInterval = setInterval(() => {
-			// 背景切换
-			if (window.location.href.endsWith("home") && !document.hidden) {
-				index += index + 1 == $(".misty-banner-item").length ? -index : 1;
-				$(".misty-banner-body").css("left", -(index * 100).toString() + "%");
-				// 信息切换
-				$(".misty-banner-item.active").removeClass("active");
-				let id = $(".misty-banner-item").eq(index).addClass("active").attr("id");
-				// LOGO切换
-				$(".misty-banner-logo.active").removeClass("active");
-				$(`.misty-banner-logo[id=${id}]`).addClass("active");
-			}
-		}, 8000);
+		// this.bannerInterval = setInterval(() => {
+		// 	// 背景切换
+		// 	if (window.location.href.endsWith("home") && !document.hidden) {
+		// 		index += index + 1 == $(".misty-banner-item").length ? -index : 1;
+		// 		$(".misty-banner-body").css("left", -(index * 100).toString() + "%");
+		// 		// 信息切换
+		// 		$(".misty-banner-item.active").removeClass("active");
+		// 		let id = $(".misty-banner-item").eq(index).addClass("active").attr("id");
+		// 		// LOGO切换
+		// 		$(".misty-banner-logo.active").removeClass("active");
+		// 		$(`.misty-banner-logo[id=${id}]`).addClass("active");
+		// 	}
+		// }, 8000);
 	}
 
 	/* 初始事件 */
