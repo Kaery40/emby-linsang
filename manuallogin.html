@@ -1,0 +1,42 @@
+<div is="emby-scroller" class="view flex flex-direction-column scrollFrameY flex-grow" data-mousewheel="true" data-horizontal="false" data-forcescrollbar="true" data-centerfocus="card" data-bindheader="true">
+    <div class="scrollSlider flex-grow flex-direction-column padded-left padded-right padded-top-page padded-bottom-page">
+        <form style="margin:0 auto;">
+
+            <h1 style="margin-top:0;">${HeaderPleaseSignIn}</h1>
+
+            <div class="inputContainer">
+                <input is="emby-input" class="txtUserName" type="text" id="txtUserName" autocomplete="off" label="${LabelUsername}" required />
+            </div>
+            <div class="inputContainer">
+                <input is="emby-input" class="txtPassword" type="password" id="txtPassword" autocomplete="off" label="${LabelPassword}" />
+            </div>
+            <label class="checkboxContainer">
+                <input is="emby-checkbox" type="checkbox" class="chkRememberLogin" checked />
+                <span>${RememberMe}</span>
+            </label>
+            <button is="emby-button" type="submit" class="raised block paperSubmit">
+                <span>${HeaderSignIn}</span>
+            </button>
+            <button is="emby-button" type="button" class="raised block buttonCancel">
+                <span>${Cancel}</span>
+            </button>
+			<button is="emby-button" type="button" class="raised cancel block buttonCancel" onclick="window.open('https://accounts.0m.ee/invite/t9aM29oouM2N6dxeZwFCaW', '_blank')">
+                <span>没有账号？点击注册</span>
+            </button>
+
+
+            <div style="margin-top:2em;">
+                <button is="emby-button" type="button" class="raised cancel block btnForgotPassword">
+                    <span>忘记密码</span>
+                </button>
+
+                <button is="emby-button" type="button" class="raised hide block btnSelectServer">
+                    <span>${HeaderChangeServer}</span>
+                </button>
+
+                <p class="disclaimer" style="text-align: center; margin-top: 2em;"></p>
+            </div>
+
+        </form>
+    </div>
+</div>
