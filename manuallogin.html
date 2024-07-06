@@ -20,22 +20,21 @@
             <button is="emby-button" type="button" class="raised block buttonCancel">
                 <span>${Cancel}</span>
             </button>
-			<button is="emby-button" type="button" class="raised cancel block buttonCancel" onclick="window.open('https://accounts.0m.ee/invite/t9aM29oouM2N6dxeZwFCaW', '_blank')">
+	    <button is="emby-button" type="button" class="raised cancel block buttonCancel" onclick="window.open('https://accounts.0m.ee/invite/t9aM29oouM2N6dxeZwFCaW', '_blank')">
                 <span>没有账号？点击注册</span>
             </button>
+            <p class="buttonItems justify-content-center">
 
-
-            <div style="margin-top:2em;">
-                <button is="emby-button" type="button" class="raised cancel block btnForgotPassword">
-                    <span>忘记密码</span>
+                <button is="emby-button" type="button" class="button-link cancel btnForgotPassword secondaryText buttonItems-item">
+                    <span>${HeaderForgotPassword}</span>
                 </button>
 
-                <button is="emby-button" type="button" class="raised hide block btnSelectServer">
+                <button is="emby-button" type="button" class="button-link hide btnSelectServer secondaryText buttonItems-item">
                     <span>${HeaderChangeServer}</span>
                 </button>
+            </p>
 
-                <p class="disclaimer" style="text-align: center; margin-top: 2em;"></p>
-            </div>
+            <p class="disclaimer" style="text-align: center; margin-top: 2em;"></p>
 
         </form>
     </div>
