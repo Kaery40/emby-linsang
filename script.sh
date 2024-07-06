@@ -19,7 +19,7 @@ if grep -q "emby-crx" index.html; then
     echo "Index.html already contains emby-crx, skipping insertion."
 else
     # 定义要插入的代码
-    code='<link rel="stylesheet" id="theme-css" href="emby-crx/style.css" type="text/css" media="all" />\n<script src="emby-crx/common-utils.js"></script>\n<script src="emby-crx/jquery-3.6.0.min.js"></script>\n<script src="emby-crx/md5.min.js"></script>\n<script src="emby-crx/main.js"></script>\n<script src="https://2gether.video/release/extension.website.user.js"></script>\n<script type="text/javascript" src="https://danmaku.movie.kg/ext.js"></script>\n<link rel="stylesheet" href="https://danmaku.movie.kg/ext.css"/>'
+    code='<link rel="stylesheet" id="theme-css" href="emby-crx/style.css" type="text/css" media="all" />\n<script src="emby-crx/common-utils.js"></script>\n<script src="emby-crx/jquery-3.6.0.min.js"></script>\n<script src="emby-crx/md5.min.js"></script>\n<script src="emby-crx/main.js"></script>\n<script type="text/javascript" src="https://danmaku.movie.kg/ext.js"></script>\n<link rel="stylesheet" href="https://danmaku.movie.kg/ext.css"/>'
 
     # 在</head>之前插入代码
     new_content=$(echo -e "${content/<\/head>/$code<\/head>}")
