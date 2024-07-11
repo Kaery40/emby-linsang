@@ -1,5 +1,6 @@
-作者: https://github.com/Nolovenodie/emby-crx
-      https://github.com/mdnoyanred/emby-crx
+https://github.com/Nolovenodie/emby-crx
+
+https://github.com/mdnoyanred/emby-crx
 
 
 测试站: https://emby.0m.ee/
