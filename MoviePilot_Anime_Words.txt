@@ -1,0 +1,449 @@
+#数码宝贝大冒险tri. 第6章「我们的未来」 (2018)
+数码宝贝大冒险tri. 第6章「我们的未来」 (2018) => {[tmdbid=481760;type=movie]}
+#数码宝贝大冒险tri. 第5章「共生」 (2017)
+数码宝贝大冒险tri. 第5章「共生」 (2017) => {[tmdbid=461758;type=movie]}
+#数码宝贝大冒险tri. 第4章「丧失」 (2017)
+数码宝贝大冒险tri. 第4章「丧失」 (2017) => {[tmdbid=422347;type=movie]}
+#数码宝贝大冒险tri. 第3章「告白」 (2016)
+数码宝贝大冒险tri. 第3章「告白」 (2016) => {[tmdbid=378106;type=movie]}
+#数码宝贝大冒险tri. 第2章「決意」 (2016)
+数码宝贝大冒险tri. 第2章「決意」 (2016) => {[tmdbid=372752;type=movie]}
+#数码宝贝大冒险tri. 第1章「再会」 (2015)
+数码宝贝大冒险tri. 第1章「再会」 (2015) => {[tmdbid=357400;type=movie]}
+#反叛的鲁路修 Ⅲ 皇道 (2018)
+反叛的鲁路修 Ⅲ 皇道 (2018) => {[tmdbid=477779;type=movie]}
+#反叛的鲁路修 Ⅱ 叛道 (2018)
+反叛的鲁路修 Ⅱ 叛道 (2018) => {[tmdbid=477777;type=movie]}
+#反叛的鲁路修 Ⅰ 兴道 (2017)
+反叛的鲁路修 Ⅰ 兴道 (2017) => {[tmdbid=477776;type=movie]}
+#亡国的阿基德 第5章：致我所爱 (2016)
+亡国的阿基德 第5章：致我所爱 (2016) => {[tmdbid=372751;type=movie]}
+#亡国的阿基德 第4章：憎恨记忆 (2015)
+亡国的阿基德 第4章：憎恨记忆 (2015) => {[tmdbid=347187;type=movie]}
+#亡国的阿基德 第3章：辉芒陨落 (2015)
+亡国的阿基德 第3章：辉芒陨落 (2015) => {[tmdbid=347200;type=movie]}
+#亡国的阿基德 第2章：翼龙折翅 (2013)
+亡国的阿基德 第2章：翼龙折翅 (2013) => {[tmdbid=212161;type=movie]}
+#亡国的阿基德 第1章：翼龙降临 (2012)
+亡国的阿基德 第1章：翼龙降临 (2012) => {[tmdbid=185526;type=movie]}
+#異世界自殺突擊隊(2024)
+異世界自殺突擊隊 => 异世界自杀小队
+#你与我最后的战场，亦或是世界起始的圣战 (2020)
+這是妳與我的最後戰場，或是開創世界的聖戰 第二季 => 你与我最后的战场，亦或是世界起始的圣战 S02
+#深夜重拳 (2024)
+深夜 Punch => 深夜冲击
+ #魔法少女与邪恶曾经敌对。 (2024)
+曾經、魔法少女和邪惡相互為敵。 => 魔法少女与邪恶曾经敌对。
+曾經、魔法少女和邪惡相互為敵。 => 曾經、魔法少女和邪惡相互為敵。{[tmdbid=239764;type=tv;s=1]}
+#身为VTuber的我因为忘记关台而成了传说 (2024)
+身為 VTuber 的我因為忘記關台而成了傳說 => 身为VTuber的我因为忘记关台而成了传说
+#妖精的尾巴 百年任务
+魔導少年 百年任務 => 妖精的尾巴 百年任务
+#亚刻奥特曼 (2024)
+超人力霸王雅克 => 亚刻奥特曼
+#物语系列 (2009)
+物語系列 第外季＆第怪季 => 物语系列 (2009).S05
+#疑似后宫
+模擬後宮體驗 => 疑似后宫
+#尼尔：自动人形
+尼爾：自動人形 Ver1.1a -  => 尼尔：自动人形 (2023).S01E
+#2.5次元的诱惑
+2.5 次元的誘惑 => 2.5次元的诱惑
+2.5 次元的誘惑 => 2.5次元の誘惑{[tmdbid=216074;type=tv;s=1]}
+#前辈是男孩子
+學姊是男孩 => 前辈是男孩子
+#我要【招架】一切~反误解的世界最强想成为冒险者～
+我要【招架】一切～反誤解的世界最強想成為冒險家 => 我要【招架】一切~反误解的世界最强想成为冒险者～
+#百变的七仓同学 (2024)
+模擬後宮體驗 => 百变的七仓同学
+#【我推的孩子】 
+【我推的孩子】 => 我推的孩子 S01
+#战国妖狐 (2024)
+戰國妖狐 千魔混沌編​ - 特別篇 => 战国妖狐 (2024).S00E01
+戰國妖狐 千魔混沌篇 => 战国妖狐 (2024).S02
+#最強肉盾的迷宮攻略～擁有稀少技能體力 9999 的肉盾，被勇者隊伍辭退了
+最強肉盾的迷宮攻略～擁有稀少技能體力 9999 的肉盾，被勇者隊伍辭退了～ => {[tmdbid=236532;type=tv]}
+最強肉盾的迷宮攻略～擁有稀少技能體力 9999 的肉盾，被勇者隊伍辭退了～ =>最强肉盾的迷宫攻略～拥有稀少技能体力9999的肉盾，被勇者队伍辞退了～
+#大叔新人冒险者，被最强小队拼死锻炼后无敌了
+新人大叔冒險者，被最強隊伍操到死成無敵 => 大叔新人冒险者，被最强小队拼死锻炼后无敌了
+#我的妻子没有感情
+我的妻子不具感情 => 我的妻子没有感情
+我的妻子不具感情 => 我的妻子没有感情{[tmdbid=250596;type=tv;s=1]}
+#海贼王春天站内版本识别词One.Piece.1999.EP001-EP929.jap_chs_cht.x264_aac.BDRip.1080p-OPFansMaplesnow
+one_piece]\[(?=(06[2-9]|07[0-7])) => 海贼王 1999][S2E                
+one_piece]\[(?=(00[1-9]|0[1-5][0-9]|06[0-1])) => 海贼王 1999][S1E
+one_piece]\[(?=(07[8-9]|08[0-9]|09[0-1])) => 海贼王 1999][S3E
+one_piece]\[(?=(09[2-9]|1[0-2][0-9]|130)) => 海贼王 1999][S4E
+one_piece]\[(?=(19[6-9]|2[0-1][0-9]|22[0-8])) => 海贼王 1999][S7E
+one_piece]\[(?=(229|2[3-5][0-9]|26[0-3])) => 海贼王 1999][S8E
+one_piece]\[(?=(33[7-9]|3[4-7][0-9]|38[0-1])) => 海贼王 1999][S10E
+one_piece]\[(?=(38[2-9]|39[0-9]|40[0-7])) => 海贼王 1999][S11E
+one_piece]\[(?=(40[8-9]|41[0-9]|42[0-1])) => 海贼王 1999][S12E
+one_piece]\[(?=(42[2-9]|4[0-9][0-9]|5[0-1][0-9]|52[0-2])) => 海贼王 1999][S13E
+one_piece]\[(?=(69[3-9]|7[0-3][0-9]|74[0-8])) => 海贼王 1999][S17E
+one_piece]\[(?=(749|7[5-9][0-9]|80[0-3])) => 海贼王 1999][S18E
+one_piece]\[(?=(80[4-9]|8[1-6][0-9]|87[0-7])) => 海贼王 1999][S19E
+one_piece]\[(?=(87[8-9]|88[0-9]|89[0-1])) => 海贼王 1999][S20E
+one_piece]\[(?=(26[4-9]|2[7-9][0-9]|3[0-2][0-9]|33[0-6])) => 海贼王 1999][S9
+one_piece]\[(?=(52[3-9]|5[3-7][0-9]|580])) => 海贼王 1999][S14E
+one_piece]\[(?=(629|6[3-9][0-9]|7[0-4][0-9]|750)) => 海贼王 1999][S16E
+one_piece]\[(?=(14[4-9]|1[5-8][0-9]|19[0-5])) => 海贼王 1999][S6E
+one_piece]\[(?=(58[1-9]|59[0-9]|6[0-3][0-9]|64[0-2])) => 海贼王 1999][S15E
+one_piece]\[(?=(13[1-9]|14[0-3])) => 海贼王 1999][S5E
+one_piece]\[(?=(89[2-9]|9[0-9][0-9]|10[0-7][0-9]|108[0-8])) => 海贼王 1999][S21E
+#新世界之门
+THE NEW GATE => 新世界之门
+#全职高手 第三季
+The King's Avatar Ⅱ => The King's Avatar
+The King's Avatar Ⅲ => The King's Avatar
+#诛仙-HHWEB订阅
+Jade.Dynasty.S01(?=.*HHWEB) => 诛仙.S01{[tmdbid=206484;type=tv;s=1]}
+Dynasty S01 2022(?=.*HHWEB) => 诛仙.S01{[tmdbid=206484;type=tv;s=1;e=37]}
+#斗破苍穹特别篇-HHWEB
+Fights.Break.Sphere.The.Origin.S01(?=.*HHWEB) => 斗破苍穹 特别篇.S04{[tmdbid=213658;type=tv;s=4]}
+Fights.Break.Sphere.SP3(?=.*HHWEB) => 斗破苍穹 特别篇.S03{[tmdbid=213658;type=tv;s=3]}
+Fights.Break.Sphere.SP2(?=.*HHWEB) => 斗破苍穹 特别篇.S02{[tmdbid=213658;type=tv;s=2]}
+#火影忍者-猪猪字幕组-Naruto HDTV 1920x1080 x264 AAC-jumpcn
+\[猪猪字幕组\]\[火影忍者-NARUTO -ナルト\]\[(00[1-9]|0[1-4][0-9]|05[0-2])\]\[DVD 720x544\] => [猪猪字幕组][火影忍者-NARUTO -ナルト][\1][DVD 720x544]{[tmdbid=46260;type=tv;s=1]}
+\[猪猪字幕组\]\[火影忍者-NARUTO -ナルト\]\[(05[3-9]|0[6-9][0-9]|10[0-4])\]\[DVD 720x544\] => [猪猪字幕组][火影忍者-NARUTO -ナルト][\1][DVD 720x544]{[tmdbid=46260;type=tv;s=2]}
+\[猪猪字幕组\]\[火影忍者-NARUTO -ナルト\]\[(10[5-9]|1[1-4][0-9]|15[0-8])\]\[DVD 720x544\] => [猪猪字幕组][火影忍者-NARUTO -ナルト][\1][DVD 720x544]{[tmdbid=46260;type=tv;s=3]}
+\[猪猪字幕组\]\[火影忍者-NARUTO -ナルト\]\[(15[9-9]|1[6-9][0-9]|20[0-9]|220)\]\[DVD 720x544\] => [猪猪字幕组][火影忍者-NARUTO -ナルト][\1][DVD 720x544]{[tmdbid=46260;type=tv;s=4]}
+# 修正青蛙的百变马丁命名错误
+百变马丁Bai => 百变马丁
+#斗罗大陆II绝世唐门
+Soul.Land.S02 => Soul.Land.S01
+斗罗大陆2. => {[tmdbid=228429;type=tv]}
+#鬼灭之刃 柱训练篇
+鬼灭之刃 柱训练篇 => {[tmdbid=85937;type=tv;s=5]}
+#百炼成神第二季(ADWeb)
+Apotheosis.?S02E(?=.*ADWeb) => Apotheosis S01E && Apotheosis S01E <> 2023 >> EP+52
+(?<=Apotheosis.S01.*?)2023 => 2022
+#一人之下3
+The.Outcast.3 => The.Outcast.S03
+#画江湖之侠岚
+Drawing.Jianghu.Shalen => {[tmdbid=235123;type=tv]}
+#画江湖之杯莫停
+画江湖之杯莫停 => {[tmdbid=89200;type=tv]}
+#虹猫蓝兔七侠传
+Hongmao.and.Lantu.Seven.Swordsmen.2006 => {[tmdbid=103270;type=tv]}
+#火凤燎原
+Huo.Feng.Liao.Yuan => {[tmdbid=225458;type=tv]}
+#时光代理人
+时光代理人 => {[tmdbid=123542;type=tv]}
+#墓王之王
+he.King.of.Tomb => {[tmdbid=104926;type=tv]}
+#Modao Zushi Q
+Modao Zushi Q => {[tmdbid=106650;type=tv]}
+#画江湖之不良人
+HuaJiangHu.BuLiangRen.S => 画江湖之不良人.S
+#斗破苍穹特别篇2
+Fights.Break.Sphere.Special.2 => {[tmdbid=246353-2;type=tv]}
+The.Legend.of.LUOXIAOHEI.2011.OVA => 罗小黑战记.S01E
+[吞噬星空].Swallowed.Star.2020.S01 => 吞噬星空.Swallowed.Star.2020.S01
+[吞噬星空].Swallowed.Star.2021.S02 => 吞噬星空.Swallowed.Star.2020.S02
+[吞噬星空].Swallowed.Star.2022.S03 => 吞噬星空.Swallowed.Star.2020.S03
+[围棋少年].Chess.Player.2005. => 围棋少年.Chess.Player.2005.S01
+Ice.Age·The.Meltdown.2006 => {[tmdbid=950;type=movie]}
+Drawing.Jianghu.Spirit.Master.2015.S01 => 画江湖之灵主.2015.S01
+神偷奶爸前传 => {[tmdbid=438148;type=movie]}
+#========新增加的识别词写在这条上面，方便后续合并========#
+Tian.Dao => 天道 (2008)
+Demon.Slayer：Kimetsu.No.Yaiba => 鬼灭之刃
+狂野地球少儿版 => 狂野地球
+神奇动物的一天少儿版 => 神奇动物的一天
+渴望城市2 => 渴望城市
+MythBusters.The.Selected.Collection => 流言终结者（精选版）
+灵魂摆渡3.Soul.Ferry.3 => 灵魂摆渡
+灵魂摆渡2.Soul.Ferry.2 => 灵魂摆渡
+埃达克岛岛海盗宝藏.Pirate.Gold.of.Adak.Island => 埃达克岛的海盗宝藏
+She.Jian.Shang.De.Xiang.Cun => 舌尖上的乡村
+大话西游Ⅰ月光宝盒.A.Chinese.Odyssey.Completed => 大话西游之月光宝盒
+Hachi.A.Dog'sTale => 忠犬八公的故事
+The.Butterfly.Effect.III.Revelations => 蝴蝶效应3
+21.Bridges => 21座桥
+Hot.Shots!1991 => 反斗神鹰
+Five.Nights.at.Freddy‘s => 玩具熊的五夜惊魂
+Star.Wars.Episode.III.Revenge.of.the.Sith => 星球大战前传3：西斯的复仇
+玛莎和熊 => 玛莎与熊
+盖比娃娃屋 => 盖比的娃娃屋
+看医生,我不怕 蓝迪智慧乐园 => 蓝迪智慧乐园之看医生,我不怕
+鹅妈妈英文儿歌 => 鹅妈妈英文儿歌动物乐园
+舞法天女 => 舞法天女朵法拉
+羊羊运动会 => 喜羊羊与灰太狼之羊羊运动会
+羊羊快乐的一年 => 喜羊羊与灰太狼之羊羊快乐的一年
+碰碰狐儿歌之儿歌舞蹈英文版 => 碰碰狐儿歌之儿歌舞蹈系列英文版
+碰碰狐儿歌之3D版系列碰碰狐儿歌之3D版系列 => 碰碰狐儿歌之3D版系列
+爱探险的朵拉特辑 => 爱探险的朵拉 特别篇
+海底小纵队在中国 => 海底小纵队在中国：中国之旅
+棉花糖和云朵妈妈·快乐生活 => 棉花糖和云朵妈妈
+杰力豆爆笑畅享版 => 杰力豆爆笑日记
+星际炮兵团之拯救色彩 => 星际炮兵团之护花使者
+斗龙战士之龙印之战 => 斗龙战士
+托宝战士之银河侦探 => 托宝战士
+心奇爆龙战车X3超斗爆龙 => 心奇爆龙战车之暴龙出击
+工程车益智好伙伴 => 益智宝贝工程车
+小巴士巴斯德 => Go Buster!
+奇思妙想喜羊羊 => 喜羊羊与灰太狼之奇思妙想喜羊羊
+奇妙启蒙课 好奇版 2-3岁 => 宝宝巴士奇妙启蒙课
+乐高幻影忍者 => 乐高幻影忍者：神龙崛起
+The Octonauts Season 6.2021 => 海底小纵队
+The Octonauts Season 5.2020 => 海底小纵队
+The Octonauts Season 4.2015 => 海底小纵队
+The Octonauts Season 3.2014 => 海底小纵队
+The Octonauts Season 2.2012 => 海底小纵队
+The Octonauts Season 1.2010 => 海底小纵队
+The Tales of Wonder Keepers => 冰雪守护者
+The Intriguing Alien Guests => 喜羊羊与灰太狼之奇趣外星客
+Super Train Robot.2022 => 列车超人
+Seer：Pi Li Jiu Chong Tian => 赛尔号
+Seer：Bing Feng Yao Sai.2019 => 赛尔号
+Seer.2017 => 赛尔号
+Seer.2016 => 赛尔号
+Seer.2015 => 赛尔号
+Seer.2013 => 赛尔号
+Seer.2012 => 赛尔号
+Seer：Lie Kong Cang Hai.2021 => 赛尔号
+Secret.and.Heroine.Phantomirage.2019 => 秘密×战士 幻影甜心
+Police.and.Heroine.Lovepatrina.2020 => 警察×战士 爱心巡护！
+Pleasant.Goat.and.Big.Big.Wolf：Guardian.of.Sheep.Village => 喜羊羊与灰太狼之羊村守护者
+Pleasant.Goat.and.Big.Big.Wolf.Ultimate.Battle.The.Next.Generation => 喜羊羊与灰太狼之决战次时代
+PJ MASKS Season 3.2021 => 睡衣小英雄
+PJ MASKS Season 1.2015 => 睡衣小英雄
+P.King.Duckling.The.Mini.Little.Adventure => 豆小鸭
+P.King.Duckling.The.Adventure.Tips.2018 => 豆小鸭
+Miniforce.Super.Dino.Power.2020 => 迷你特工队之超级恐龙力量
+Mini.Force.2014 => 最强战士之迷你特工队
+Meng.Ji.Xiao.Dui => 萌鸡小队
+Magic Panda => 神奇熊猫
+Liang.Zi.Zhan.Dui.Zhi.Kong.Long.Shou.Hu => 量子战队之恐龙守护
+Kira.Kira.Happy.Hirake.Cocotama => KiraKira Happy
+Kira.Kira.Happy.Hirake.Cocotama.2019 => KiraKira Happy
+Ju.Chong.Gong.Yuan => 巨虫公园
+Kaka.Tiger.Adventure => 卡卡虎大冒险
+Jin Pai Kuai Di Yuan => 金牌快递员
+Inspector Black Cati => 黑猫警长
+GG.Bond.Of.Dinosaurs => 猪猪侠之恐龙日记
+Duobao Family => 多宝一家人
+Desire.for.sky => 渴望蓝天
+Da.tou.er.zi.he.xiao.tou.ba.ba => 大头儿子和小头爸爸
+Da.Er.Duo.Tutu => 大耳朵图图
+Big Ear Tutu => 大耳朵图图
+Badanamu.Situational.English => 巴塔木儿歌
+CoComelon系列儿歌 => 系列儿歌可可瓜儿歌
+Chang Zheng Xian Feng => 长征先锋
+Catch.Teenping => 奇妙萌可
+Badanamu.Nature.Spelling.Nursery.Rhymes => 巴塔木流行儿歌
+鼠来宝3.破碎的旅程.Alvin.and.the.Chipmunks.Chip-Wrecked => 鼠来宝3：破碎的旅程
+许愿盒.Wishing.Box => 许愿
+Jade.Eyed.Leopard => Eye of the Leopard
+Ice.Age·Continental.Drift => 冰川时代4：大陆漂移
+Everything.Ever.where.All.at.Once.2022 => Everything Everywhere All at Once
+Suicide.Squad.TC.2016.BluRay => 自杀小队
+多哥(国英).Togo => 多哥
+Ice.Age·Collision.Course => 冰川时代5：星际碰撞
+12.Angry.Men => 十二怒汉
+我是哪吒.I.am.NeZha => 我是哪吒
+Coco.2017.BluRay.2160p.265.10bit.HDR.5Audio.mUHD-FRDS => 寻梦环游记
+Juice => 哈雷兄弟
+Edward.Scissorhands.25th.Anniversary.Remastered.Edition => 剪刀手爱德华
+[疾速备战].John.Wick.Chapter.III.Parabellum.2019 => 疾速追杀3
+棋靈王特別篇：邁向北斗盃之路.Hikaru.no.go.Hokuto.hai.eno.michi => 棋魂·通往北斗杯之路
+Wrath.of.Man => 人之怒
+Jigarthanda.DoubleX.Telugu => 冷酷的心：双倍奉还
+疯了！桂宝之三星夺宝.Crazy.Guibao's.Three.Stars.Seize.Treasures => 疯了！桂宝之三星夺宝
+Jurassic.World => 侏罗纪世界
+新猪猪侠大电影·超级赛车.GG.Bond.Super.Racing => 新猪猪侠大电影·超级赛车
+疯狂小世界.S01E01 => 疯狂小世界
+New Happy Dad and Son 5 My Alien Friends => 新大头儿子和小头爸爸5：我的外星朋友
+Agent Backkom：Kings Bear.2021.S01.2160p.WEB-DL.H265.AC3-PigoWeb => 贝肯熊2：金牌特工
+Backkom Bear Agent 008.2017.S01.1080p.WEB-DL.H265.AC3-PigoWeb => 大卫贝肯之倒霉特工熊
+Monster Island.2017.S01.2160p.WEB-DL.H265.DDP-PigoWeb => 怪物岛
+Happy.Little.Submarine.3.Rainbow.Treasure => 潜艇总动员3：彩虹宝藏
+Happy.Little.Submarine.Journey.To.The.Center.Of.The.Deep.Ocean => 潜艇总动员：海底两万里
+Geukjangpan.Banjiui.Bimirilgi => 潘及的秘密日记 剧场版
+Pororo.Movie.Treasure.Island.Adventure => 波鲁鲁：金银岛历险记
+Da ErDuo Tutu Zhi Mei Shi Kuang Xiang Qu => 大耳朵图图之美食狂想曲
+Pleasant.Goat.And.Big.Big.Wolf => 喜羊羊与灰太狼之牛气冲天
+Let's.Go.Anpanman.Fluffy.Fuwari.and.the.Cloud.Country => 面包超人：软绵绵与云之国
+Soreike.Anpanman.Dadandan.to.futago.no.hoshi => 面包超人：大当当与双子星
+Soreike.Anpanman.Tobase.Kibou.no.hankachi => 面包超人：跳跃吧！希望的手绢
+LetS.Go.Anpanman.Sparkle.Princess.Vanilla.of.the.Land.of.Ice.Cream => 走起！面包超人闪耀！冰激凌国的香草姬
+Eiga.Kureyon.Shinchan.Bakauma.B-kyu.gurume.sabaibaru => 蜡笔小新：超级美味！B级美食大逃亡
+Kureyon.Shinchan.Gekitotsu.Rakugakingudamu.to.Hobo.Shi-Ri.no.Yusha => 蜡笔小新：激战！涂鸦王国和约四位勇士
+How.dare.you => 成何体统
+#吞噬星空 【ADWeb订阅第2-4季】
+(?<=Swallowed.Star.S04.*?)2023 => 2020
+(?<=Swallowed.Star.S02.*?)2021 => 2020
+(?<=Swallowed.Star.S03.*?)2022 => 2020
+Swallowed.Star.S04 => Swallowed.Star.S01 && S01 <> 2020 >> EP+85
+吞噬星空.第3季.Swallowed.Star.S03 => 吞噬星空.第1季.Swallowed.Star.S01
+吞噬星空.第2季.Swallowed.Star.S02 => 吞噬星空.第1季.Swallowed.Star.S01 
+#名侦探柯南 【银色子弹 BT】
+(?<=SBSUB.*DR.*?)- => part
+\[CHS\_CHT\_JP\]\(\w{8}\)
+\[CHT\_JP\]\(\w{8}\)
+\[CHS\_JP\]\(\w{8}\)
+\[SBSUB\]\[CONAN\]\[DR => [银色子弹字幕组][名侦探柯南][S01E
+\[SBSUB\]\[CONAN\]\[ => [银色子弹字幕组][名侦探柯南][S01E
+#名侦探柯南 【APTX4869 BT】
+\[CHS\_CHT\_JPN\]\(\w{8}\)
+\[APTX4869\]\[CONAN\]\[ => [APTX4869][名侦探柯南][S01E
+\[APTX4869&CONANS\]\[CONAN\]\[ => [APTX4869][名侦探柯南][S01E
+#诛仙 【ADWeb 订阅第二季】
+ (?<=Jade.Dynasty.S01.*?)2024 => 2022
+#全职法师 国漫[GM-Team][国漫]
+Quan Zhi Fa Shi Ⅵ => Quan Zhi Fa Shi
+#诛仙
+Jade Dynasty Ⅱ => 诛仙.Jade.Dynasty
+Jade Dynasty => 诛仙.Jade.Dynasty 
+Jade.Dynasty.2022 => 诛仙.Jade.Dynasty.2022
+#雾山五行 犀川幻紫林
+Fog Hill of Five Elements Ⅱ => Fog Hill of Five Elements
+#镇魂街
+Rakshasa Street Ⅲ => Rakshasa Street
+#大王饶命
+Da Wang Rao Ming Ⅱ => Da Wang Rao Ming
+#星辰变S5
+Stellar Transformation Ⅴ => Stellar Transformation
+ #永生
+IMMORTALITY.S01(?=.*ADWeb) => IMMORTALITY.S03 && S03 <> 2022 >> EP-24
+ #全职高手
+ (?<=The.King's.Avatar.S03.*?)2024 => 2017
+The King's Avatar Ⅲ => The King's Avatar
+#卷相思
+The Island of Siliang Ⅱ => The Island of Siliang
+# 笨蛋测验召唤兽第二季
+# 兼容名称[Yousei-raws] Baka to Test to Shoukanjuu Ni! 08 [BDrip 1920x1080 x264 FLAC].mkv
+Baka to Test to Shoukanjuu Ni! (\d{2,3}) => Baka to Test to Shoukanjuu S02 E\1
+# 笨蛋测验召唤兽第一季
+# 兼容名称[Yousei-raws] Baka to Test to Shoukanjuu 12 [BDrip 1920x1080 x264 FLAC].mkv
+Baka to Test to Shoukanjuu (\d{2,3}) => Baka to Test to Shoukanjuu S01 E\1
+#我的英雄学院（前面四集自行调整）
+我的英雄學院 第七季 => 我的英雄学院 S07 E && E <> 1080P >> EP-138
+#声优广播的台前幕后
+聲優廣播的幕前幕後 => 声优广播的台前幕后
+#王牌酒保
+王牌酒保 Glass of God => 王牌酒保 神之杯
+#格斗实况
+格鬥實況 => 格斗实况S01
+格鬥實況 => {[tmdbid=246029;type=tv]}
+#黑执事
+Kuroshitsuji - Kishuku Gakkou-hen => {[tmdbid=50712;type=tv;s=4]}
+#蜻蛉高球
+Ooi! Tonbo => {[tmdbid=243140;type=tv]}
+#被称为废物的原英雄被家里流放后随心所欲地活下去
+被称为废物的原英雄被家里流放后随心所欲地活下去 => {[tmdbid=229108;type=tv]}
+被称为废物的原英雄被家里流放后随心所欲地活下去 => 被称为废物的原英雄，被家里流放后随心所欲地活下去 S01E
+#从Lv2开始开外挂的前勇者候补过着悠哉异世界生活
+從 Lv2 開始開外掛的前勇者候補過著悠哉異世界生活 => 从Lv2开始开外挂的前勇者候补过着悠哉异世界生活
+從 Lv2 開始開外掛的前勇者候補過著悠哉異世界生活 => {[tmdbid=237233;type=tv]}
+#鬼灭之刃 柱训练篇
+鬼滅之刃 柱訓練篇 => {[tmdbid=85937;type=tv;s=5]}
+#2024年4月新番
+Kono Subarashii Sekai ni Shukufuku wo => {[tmdbid=65844;type=tv;]} 
+Bartender：Kami no Glass => {[tmdbid=225168;type=tv;]} 
+Blue Archive => {[tmdbid=218833;type=tv;]} 
+#转生贵族凭鉴定技能扭转人生
+轉生貴族憑鑑定技能扭轉人生 => 转生贵族靠着鉴定技能一飞冲天 {[tmdbid=237150;type=tv;]}
+转生贵族靠着鉴定技能一飞冲天 =>  转生贵族靠着鉴定技能一飞冲天 {[tmdbid=237150;type=tv;]}
+转生贵族凭鉴定技能扭转人生 => 转生贵族靠着鉴定技能一飞冲天 {[tmdbid=237150;type=tv;]}
+Tensei Kizoku, Kantei Skill de Nariagaru => {[tmdbid=237150;type=tv;]}
+WebRip 1080p HEVC-10bit AAC SRTx2
+#狼与香辛料
+Ookami to Koushinryou => {[tmdbid=229676;type=tv;]}
+#终末列车要开往哪里？
+#从Lv2开始开挂的原勇者候补悠闲的异世界生活
+Lv2 kara Cheat datta => {[tmdbid=237233;type=tv;]}
+#杀手寓言
+Thefable => 杀手寓言1#转生为第七王子，随心所欲的魔法学习之路
+Tensei shitara Dainana Ouji Datta node, Kimama ni Majutsu wo Kiwamemasu => {[tmdbid=213830;type=tv;]}
+#摇曳露营 第三季(ADweb)
+(?<=Yuru Camp S03.*?)2024 => 2018
+#大欺诈师
+GREAT PRETENDER razbliuto => {[tmdbid=93816;type=tv;s=2]}
+#身为魔王的我娶了奴隶精灵为妻，该如何表白我的爱？
+身为魔王的我娶了奴隶精灵为妻、该如何爱她才好？=> 身为魔王的我娶了奴隶精灵为妻，该如何表白我的爱？ {[tmdbid=238848;type=tv;]}
+#关于我转生变成史莱姆这档事 第三季
+關於我轉生變成史萊姆這檔事 第三季 - 48.5 => 关于我转生变成史莱姆这档事.S00 E14 {[tmdbid=82684;type=tv;s=0;e=14]}
+Tensei Shitara Slime Datta Ken 3rd Season - 48.5 => 关于我转生变成史莱姆这档事.S00 E14 {[tmdbid=82684;type=tv;s=0;e=14]}
+Tensei Shitara Slime Datta Ken 3rd Season - 00\(48.5\) => 关于我转生变成史莱姆这档事.S00 E14 {[tmdbid=82684;type=tv;s=0;e=14]}
+Tensei Shitara Slime Datta Ken 3rd Season - 00\(49\) => 关于我转生变成史莱姆这档事.S03 E01 {[tmdbid=82684;type=tv;s=3;e=1]}
+Tensei Shitara Slime Datta Ken 3rd Season - (\d{1,2}) .* => 关于我转生变成史莱姆这档事.S3 E\1  {[tmdbid=82684;type=tv;]} && 关于我转生变成史莱姆这档事.S3 E <>  >> EP-48
+Tensei Shitara Slime Datta Ken 3rd Season - (\d{1,2})\((\d{1,2})\) => 关于我转生变成史莱姆这档事.S3 E\1 {[tmdbid=82684;type=tv;]}
+#关于我转生变成史莱姆这档事 第二季
+Tensei Shitara Slime Datta Ken 2nd Season - (\d{1,2}) .* => 关于我转生变成史莱姆这档事.S2 E\1 {[tmdbid=82684;type=tv;]} && 关于我转生变成史莱姆这档事.S2 E <>  >> EP-24
+Tensei Shitara Slime Datta Ken.*24.9.* => 关于我转生变成史莱姆这档事.S00 E07 {[tmdbid=82684;type=tv;]}
+#关于我转生变成史莱姆这档事 第一季
+Tensei Shitara Slime Datta Ken.*24.5.* => 关于我转生变成史莱姆这档事.S00 E01 {[tmdbid=82684;type=tv;]}
+#大耳朵图图
+大耳朵图图 =>  {[tmdbid=131937;type=tv;]}
+Da.Er.Duo.Tutu =>  {[tmdbid=131937;type=tv;]}
+BigEarTutu =>  {[tmdbid=131937;type=tv;]}
+Big.Ear.Tutu =>  {[tmdbid=131937;type=tv;]}
+Peppa.Pig => 小猪佩奇
+Meitantei.Conan => 名侦探柯南
+Young.Di.Renjie =>  {[tmdbid=157287;type=tv;]}
+小狼乐宾 => {[tmdbid=129874;type=tv;]}
+Meng.Ji.Xiao.Dui => {[tmdbid=85087;type=tv;]}
+MengJiXiaoDui => {[tmdbid=85087;type=tv;]}
+Journey.to.the.West => {[tmdbid=85672;type=tv;]}
+超级飞侠.Super.Wings => {[tmdbid=71026;type=tv;]}
+超级飞侠.第3季.Super.Wings => {[tmdbid=71026;type=tv;]}
+YuZhouHuWeiDui => {[tmdbid=114674;type=tv;]}
+#[ANi]
+異世界自殺突擊隊 => {[tmdbid=229926;type=tv]}
+隊長小翼 Season2 青少年篇 => {[tmdbid=77240;type=tv;s=2]}
+至高之牌 2 => 至高之牌.S02 && 至高之牌.S02 - <> [1080P] >> EP-12
+花野井同學與戀愛病 => 花野井君和相思病
+花野井同學與戀愛病 =>{[tmdbid=239214;type=tv]}
+青之驅魔師 島根啟明結社篇 => {[tmdbid=38464;type=tv;s=3]}
+約會大作戰 DATE A LIVE V => 约会大作战 S05
+約會大作戰 DATE A LIVE V => {[tmdbid=46004;type=tv;s=5]}
+歡迎來到實力至上主義的教室 第三季 => {[tmdbid=72517;type=tv;s=3]}
+聲優廣播的幕前幕後 => {[tmdbid=216760]}
+弱角友崎同學 2nd STAGE => {[tmdbid=99083;type=tv;s=2]}
+卡片戰鬥!! 先導者 Divinez => {[tmdbid=106301-overdress;type=tv;s=5]}
+她來自煩星 第二季 => 福星小子.S01 && 福星小子.S01 <> [1080P] >> EP
+Love Live！虹咲學園 學園偶像同好會 短篇動畫 第二季 => {[tmdbid=210511;type=tv;s=2]}
+搖曳露營△ 第三季 => {[tmdbid=76075;type=tv;s=3]}
+王牌酒保 Glass of God => {[tmdbid=225168;type=tv;]} 
+魔王學院的不適任者 => {[tmdbid=97617;type=tv;]} 
+黑執事 寄宿學校篇 => {[tmdbid=50712;type=tv;s=4]}
+约会大作战 DATE A LIVE V => 约会大作战 S5
+魔王學院的不適任者～史上最強的魔王始祖，轉生就讀子孫們的學校～ => 魔王学院的不适任者
+魔王学院的不适任者～史上最强的魔王始祖，转生就读子孙们的学校～ => 魔王学院的不适任者
+黑執事 寄宿學校篇 => 黑执事 S4
+黑执事 寄宿学校篇 => 黑执事 S4
+為美好的世界獻上祝福！3 => 为美好的世界献上祝福！ S3
+为美好的世界献上祝福！3 => 为美好的世界献上祝福！ S3
+花野井同學與戀愛病 => 花野井君和相思病
+花野井同学与恋爱病 => 花野井君和相思病
+为美好的世界献上祝福！3 => 为美好的世界献上祝福！ S3
+關於我轉生變成史萊姆這檔事 第三季 - <> [1080P] >> EP-48
+NEW GAME!! => NEW GAME!! S02
+听我的电波吧 => 听我的电波吧 动画
+OVERLORD II => OVERLORD S02
+OVERLORD III => OVERLORD S03
+OVERLORD Ⅳ => OVERLORD S03
+(雀魂 KANG!! / Jantama Kan!!)|(Jantama Kan!!) => 雀魂 S02
+防風少年 => {[tmdbid=223500;type=tv]}
+Kimetsu no Yaiba：Hashira Geiko-hen => 鬼灭之刃 S5
+鬼灭之刃 柱训练篇 => 鬼灭之刃 S5
+# 海贼王 第20 21 22季适用于猫站/人人人
+One\.Piece\.S01E(1089|109[0-9]|110[0-9]|111[0-9]|112[0-9]|113[0-8])\s => 海贼王 S22E\1 
+One Piece S01E(1089|109[0-9]|110[0-9]|111[0-9]|112[0-9]|113[0-8])\s => 海贼王 S22E\1 
+One Piece 1999 E(89[2-9]|9[0-9]{2}|10[0-8][0-9]|1088)\s => 海贼王 S21E\1 
+One Piece S01E(89[2-9]|9[0-9]{2}|10[0-8][0-9]|1088)\s => 海贼王 S21E\1 
+One Piece S01E(87[8-9]|88[0-9]|891)\s => 海贼王 S20E\1 
+#海贼王 下载后的文件名识别
+One\.Piece\.S01E(1089|109[0-9]|110[0-9]|111[0-9]|112[0-9]|113[0-8])\b => 海贼王 S22E\1 
+One.Piece.S01E(89[2-9]|9[0-9]{2}|10[0-8][0-9]|1088)\b => 海贼王 S21E\1
+One\.Piece\.S01E(87[8-9]|88[0-9]|891)\b => 海贼王 S20E\1 
+#虹咲偶像同好会四格动画 (2023) 第二季
+Love Live！虹咲学园 学园偶像同好会 短篇动画 第二季 => 虹咲偶像同好会四格动画 S2
+#回铭之烽火三月
+回铭 => 回铭之烽火三月                    
+ t噬x空=>吞噬星空
+ w美s界=>完美世界
+z天=>遮天
+n天x神=>逆天邪神
