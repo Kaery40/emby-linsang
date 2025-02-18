@@ -3,7 +3,7 @@
  * Original file: /gh/RyanL-29/aniopen@2.0.3/app.js
  *
  * Do NOT use SRI with dynamically generated files! More information: https://www.jsdelivr.com/using-sri-with-dynamic-files
- */
+ */ 
 const version = "2.0.3";
 function init() {
     document.siteName = $("title").html(),
