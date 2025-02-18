@@ -64,7 +64,7 @@ function contactus() {
 }
 function nav(M) {
     var t = "";
-    t += '<div style="max-width:150px;"><img class="mdui-typo-headline mdui-img-fluid folder" href="/"  style = "max-width: 100%;height: auto;width: auto;"src="https://pro.v300.eu.org/cdn.jsdelivr.net/gh/RyanL-29/aniopen/aniopen.png"></div>';
+    t += '<div style="max-width:150px;"><img class="mdui-typo-headline mdui-img-fluid folder" href="/"  style = "max-width: 100%;height: auto;width: auto;"src="https://pro.0m.ee/cdn.jsdelivr.net/gh/RyanL-29/aniopen/aniopen.png"></div>';
     var e = M.trim("/").split("/");
     let n = "/";
     if (e.length > 0) {
@@ -223,7 +223,7 @@ function file_video(M) {
         hotkey: !0,
         video: {
             url: e,
-            pic: "https://pro.v300.eu.org/cdn.jsdelivr.net/gh/RyanL-29/aniopen/background.png",
+            pic: "https://pro.0m.ee/cdn.jsdelivr.net/gh/RyanL-29/aniopen/background.png",
             type: "auto"
         },
         subtitle: {
